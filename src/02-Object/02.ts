@@ -43,7 +43,7 @@ type TeahType = {
     id: number
     title: string
 }
-type StydentType = {
+export type StydentType = {
     name: string
     age: number
     isActive: boolean
@@ -51,7 +51,7 @@ type StydentType = {
     technologies: Array<TeahType>
     // technologies: TeahType[]
 }
-const student: StydentType = {
+export const student: StydentType = {
     name: "Dimych",
     age: 32,
     isActive: false,
